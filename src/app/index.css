@@ -14,7 +14,7 @@
   height: 100%;
   pointer-events: none;
   img{
-    filter: brightness(0.4);
+    filter: brightness(0.6);
   }
 }
 
@@ -150,7 +150,7 @@
 
 .what-we-do .what-we-do-col:nth-child(1) p.lg {
   color: var(--base-300);
-  width: 50%;
+  width: 70%;
 }
 
 .what-we-do .what-we-do-col:nth-child(1) p {
@@ -167,10 +167,14 @@
 
 .what-we-do .what-we-do-tag {
   display: inline-block;
-  padding: 1rem 2rem;
+  padding: 0.75rem 1.7rem;
   margin: 0 0.5rem 0.5rem 0;
   border: 1px solid var(--base-400);
   border-radius: 4rem;
+  h3{
+    font-size: 1.75rem;
+    letter-spacing: -0.045rem;
+  }
 }
 
 @media (max-width: 1000px) {

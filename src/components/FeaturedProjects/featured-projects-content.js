@@ -1,31 +1,31 @@
 const featuredProjectsContent = [
   {
-    info: "An immersive lounge built around a central tree",
-    title: "Sanctum Hall",
+    info: "Crafting digital spaces that elevate your brand.",
+    title: "Web Development",
     description:
-      "Circular seating, arched openings, and natural textures create a serene gathering space. The design balances monumentality with intimacy, framing nature as the focal point.",
-    image: "/featured-projects/featured-work-1.jpg",
+      "We build high-performance, SEO-ready websites using modern technologies like Next.js and React. Every site is fast, responsive, and designed to convert visitors into customers.",
+    image: "/featured-projects/featured-work-1.webp",
   },
   {
-    info: "A private retreat defined by water and sun",
-    title: "Desert Poolhouse",
+    info: "Transforming ideas into powerful mobile experiences.",
+    title: "App Development",
     description:
-      "Soft stucco walls, a lone palm, and an open sky bring elemental simplicity. The still surface of the pool becomes both mirror and threshold, blurring enclosure and openness.",
-    image: "/featured-projects/featured-work-2.jpg",
+      "We develop custom iOS and Android apps with smooth UI, robust backend systems, and scalable architecture. Built for performance, stability, and user satisfaction.",
+    image: "/featured-projects/featured-work-2.webp",
   },
   {
-    info: "A cloister-inspired courtyard with generous arches",
-    title: "Arcade Residence",
+    info: "Turning raw data into meaningful business insights.",
+    title: "Dashboard & Admin Panel Development",
     description:
-      "Rhythmic colonnades and layered seating zones encourage calm gatherings. Textured stone and filtered light evoke both permanence and ease, rooted in classical geometry.",
-    image: "/featured-projects/featured-work-3.jpg",
+      "We create intelligent dashboards and admin panels tailored to your workflows. Get real-time analytics, automation, and complete control over your operations.",
+    image: "/featured-projects/featured-work-3.webp",
   },
   {
-    info: "A refined interior anchored by symmetry and light",
-    title: "Atrium Gallery",
+    info: "Helping your business rank higher online.",
+    title: "SEO & Digital Marketing",
     description:
-      "A quiet procession of columns and a sculptural centerpiece guide the eye toward framed views. Warm plaster walls and soft daylight create a setting of contemplative elegance.",
-    image: "/featured-projects/featured-work-4.jpg",
+      "Our SEO strategies improve visibility, search rankings, and organic traffic. From technical SEO to content optimization, we help your brand dominate search results.",
+    image: "/featured-projects/featured-work-4.webp",
   },
 ];
 

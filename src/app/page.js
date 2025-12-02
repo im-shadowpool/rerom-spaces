@@ -356,10 +356,7 @@ export default function Home() {
 
               <Copy delay={0.15}>
                 <p className="lg">
-                  We approach each build with a clarity of intent. Every plan is
-                  shaped through research, iteration, and conversation. What
-                  remains is the essential, designed to last and built to feel
-                  lived in.
+Every project is optimized for speed, SEO, and conversions, ensuring your brand not only looks stunning but also ranks higher and performs better. With expertise in Next.js, React, Node.js, Three.js and modern development practices, we deliver scalable, secure, and future-ready digital products.
                 </p>
               </Copy>
             </div>
@@ -368,23 +365,27 @@ export default function Home() {
                 className="what-we-do-tags"
                 ref={tagsRef}>
                 <div className="what-we-do-tag">
-                  <h3>Quiet</h3>
+                  <h3>Custom Build</h3>
                 </div>
                 <div className="what-we-do-tag">
-                  <h3>View</h3>
+                  <h3>Clean UI/UX</h3>
+                </div>
+                                <div className="what-we-do-tag">
+                  <h3>Marketing</h3>
+                </div>
+                    <div className="what-we-do-tag">
+                  <h3>DevOps</h3>
                 </div>
                 <div className="what-we-do-tag">
-                  <h3>Tactile</h3>
+                  <h3>Real-Time Dashboards</h3>
+                </div>
+               <div className="what-we-do-tag">
+                  <h3>Brand-Focused Visuals</h3>
                 </div>
                 <div className="what-we-do-tag">
-                  <h3>Light-forward</h3>
+                  <h3>SEO-Ready</h3>
                 </div>
-                <div className="what-we-do-tag">
-                  <h3>Slow design</h3>
-                </div>
-                <div className="what-we-do-tag">
-                  <h3>Modular rhythm</h3>
-                </div>
+     
               </div>
             </div>
           </div>
@@ -394,12 +395,12 @@ export default function Home() {
         <div className="container">
           <div className="featured-projects-header-callout">
             <Copy delay={0.1}>
-              <p>Featured work</p>
+              <p>Digital Spaces Crafted by ReromSpaces</p>
             </Copy>
           </div>
           <div className="featured-projects-header">
             <Copy delay={0.15}>
-              <h2>A selection of recent studies and completed spaces</h2>
+              <h2>Explore our services built for your brand in digital space.</h2>
             </Copy>
           </div>
         </div>
