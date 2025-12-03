@@ -1,6 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Manrope:wght@200..800&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Manrope:wght@200..800&display=swap"); */
 
 :root {
+  --fallback-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  font-family: var(--font-manrope), var(--fallback-sans);
   --base-100: rgb(242, 237, 230);
   --base-200: rgb(204, 200, 194);
   --base-250: rgb(179, 167, 152);
@@ -88,7 +90,7 @@ p.lg {
 p.mono {
   text-transform: uppercase;
   font-family: "DM Mono";
-  font-size: 0.9rem;
+  font-size: .9rem;
   font-weight: 500;
   -webkit-font-smoothing: antialiased;
 }
@@ -107,7 +109,7 @@ a {
   font-weight: 500;
   line-height: 1.4;
   color: var(--base-200);
-  border-radius: 0.35rem;
+  border-radius: .35rem;
 }
 
 span.spacer {
