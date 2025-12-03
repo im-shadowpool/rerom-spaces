@@ -10,7 +10,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useViewTransition } from "@/hooks/useViewTransition";
 import Copy from "../Copy/Copy";
 
-import { RiLinkedinBoxLine } from "react-icons/ri";
+import { RiLinkedinLine } from "react-icons/ri";
 import { RiInstagramLine } from "react-icons/ri";
 import { RiDribbbleLine } from "react-icons/ri";
 import { RiYoutubeLine } from "react-icons/ri";
@@ -52,11 +52,11 @@ const Footer = () => {
             <div className="footer-meta-block">
               <div className="footer-meta-logo">
                 <Copy delay={0.1}>
-                  <h3 className="lg">Terrene</h3>
+                  <h3 className="lg">ReromSpaces</h3>
                 </Copy>
               </div>
               <Copy delay={0.2}>
-                <h2>Spaces made simple, thoughtful, lasting.</h2>
+                <h2>Crafted with creativity, precision, and passion.</h2>
               </Copy>
             </div>
           </div>
@@ -125,7 +125,7 @@ const Footer = () => {
           <div className="footer-meta-col">
             <div className="footer-socials-wrapper" ref={socialIconsRef}>
               <div className="icon">
-                <RiLinkedinBoxLine />
+                <RiLinkedinLine />
               </div>
               <div className="icon">
                 <RiInstagramLine />
@@ -140,10 +140,8 @@ const Footer = () => {
           </div>
           <div className="footer-meta-col">
             <Copy delay={0.1}>
-              <p>
-                We believe design is not decoration but the quiet structure that
-                shapes experience.
-              </p>
+              <p>hello@reromspaces.com</p>
+              <p>+91 83176 87898</p>
             </Copy>
           </div>
         </div>
@@ -155,9 +153,9 @@ const Footer = () => {
           </div>
           <div className="footer-copyright">
             <p>
-              Developed by — <span>Codegrid</span>
+              <span>ReromSpaces.com</span>
             </p>
-            <p>This website is using cookies.</p>
+            <p>Made together with our clients.</p>
             <p>All rights reserverd &copy; 2025</p>
           </div>
         </div>

@@ -281,21 +281,21 @@ const Nav = () => {
             <div className="socials">
               <div className="sub-col">
                 <div className="menu-meta menu-commissions">
-                  <p>Commissions</p>
-                  <p>build@terrene.studio</p>
-                  <p>+1 (872) 441‑2086</p>
+                  <p>Support</p>
+                  <p>hello@reromspaces.com</p>
+                  <p>+91 83176 87898</p>
                 </div>
                 <div className="menu-meta">
-                  <p>Studio Address</p>
-                  <p>18 Cordova Lane</p>
-                  <p>Seattle, WA 98101</p>
+                  <p>Location</p>
+                  <p>Hyderabad, India</p>
                 </div>
               </div>
               <div className="sub-col">
                 <div className="menu-meta">
-                  <p>Social</p>
+                  <p>Reach us</p>
                   <p>Instagram</p>
-                  <p>Are.na</p>
+                  <p>WhatsApp</p>
+                  <p>Facebook</p>
                   <p>LinkedIn</p>
                 </div>
               </div>

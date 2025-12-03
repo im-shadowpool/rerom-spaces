@@ -30,17 +30,13 @@
   color: var(--base-350);
 }
 
-.contact-hero .contact-copy-year h1 {
-  font-size: 20%;
-  font-weight: 450;
-  color: var(--base-100);
-}
 
 .contact-hero .contact-info {
   display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  margin-bottom: 6rem;
+  flex-direction: row;
+  align-items: start;
+  justify-content: start;
+  gap: 3rem;
 }
 
 .contact-hero .contact-info .contact-info-block p {
@@ -73,7 +69,5 @@
     width: 100%;
   }
 
-  .contact-hero .contact-copy-year h1 {
-    font-size: 3rem;
-  }
+
 }

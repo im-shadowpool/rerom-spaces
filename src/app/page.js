@@ -183,16 +183,12 @@ export default function Home() {
             <div className="block"></div>
           </div>
           <div className="intro-logo">
-            <div
-              className="word"
-              id="word-1">
+            <div className="word" id="word-1">
               <h1>
                 <span>ReRom</span>
               </h1>
             </div>
-            <div
-              className="word"
-              id="word-2">
+            <div className="word" id="word-2">
               <h1>Spaces</h1>
             </div>
           </div>
@@ -247,25 +243,18 @@ export default function Home() {
       <Nav />
       <section className="hero">
         <div className="hero-bg">
-          <img
-            src="/home/hero.jpg"
-            alt=""
-          />
+          <img src="/home/hero.jpg" alt="" />
         </div>
         <div className="hero-gradient"></div>
         <div className="container">
           <div className="hero-content">
             <div className="hero-header">
-              <Copy
-                animateOnScroll={false}
-                delay={showPreloader ? 10 : 0.85}>
+              <Copy animateOnScroll={false} delay={showPreloader ? 10 : 0.85}>
                 <h1>Your Space for Smarter Digital Solutions</h1>
               </Copy>
             </div>
             <div className="hero-tagline">
-              <Copy
-                animateOnScroll={false}
-                delay={showPreloader ? 10.15 : 1}>
+              <Copy animateOnScroll={false} delay={showPreloader ? 10.15 : 1}>
                 <p>
                   We build custom websites, mobile apps, dashboards, and SEO
                   strategies that help businesses scale.
@@ -356,36 +345,37 @@ export default function Home() {
 
               <Copy delay={0.15}>
                 <p className="lg">
-Every project is optimized for speed, SEO, and conversions, ensuring your brand not only looks stunning but also ranks higher and performs better. With expertise in Next.js, React, Node.js, Three.js and modern development practices, we deliver scalable, secure, and future-ready digital products.
+                  Every project is optimized for speed, SEO, and conversions,
+                  ensuring your brand not only looks stunning but also ranks
+                  higher and performs better. With expertise in Next.js, React,
+                  Node.js, Three.js and modern development practices, we deliver
+                  scalable, secure, and future-ready digital products.
                 </p>
               </Copy>
             </div>
             <div className="what-we-do-col">
-              <div
-                className="what-we-do-tags"
-                ref={tagsRef}>
+              <div className="what-we-do-tags" ref={tagsRef}>
                 <div className="what-we-do-tag">
                   <h3>Custom Build</h3>
                 </div>
                 <div className="what-we-do-tag">
                   <h3>Clean UI/UX</h3>
                 </div>
-                                <div className="what-we-do-tag">
+                <div className="what-we-do-tag">
                   <h3>Marketing</h3>
                 </div>
-                    <div className="what-we-do-tag">
+                <div className="what-we-do-tag">
                   <h3>DevOps</h3>
                 </div>
                 <div className="what-we-do-tag">
                   <h3>Real-Time Dashboards</h3>
                 </div>
-               <div className="what-we-do-tag">
+                <div className="what-we-do-tag">
                   <h3>Brand-Focused Visuals</h3>
                 </div>
                 <div className="what-we-do-tag">
                   <h3>SEO-Ready</h3>
                 </div>
-     
               </div>
             </div>
           </div>
@@ -400,7 +390,9 @@ Every project is optimized for speed, SEO, and conversions, ensuring your brand 
           </div>
           <div className="featured-projects-header">
             <Copy delay={0.15}>
-              <h2>Explore our services built for your brand in digital space.</h2>
+              <h2>
+                Explore our services built for your brand in digital space.
+              </h2>
             </Copy>
           </div>
         </div>
@@ -419,34 +411,22 @@ Every project is optimized for speed, SEO, and conversions, ensuring your brand 
           <div className="gallery-callout-col">
             <div className="gallery-callout-row">
               <div className="gallery-callout-img gallery-callout-img-1">
-                <img
-                  src="/gallery-callout/gallery-callout-1.jpg"
-                  alt=""
-                />
+                <img src="/gallery-callout/gallery-callout-1.webp" alt="" />
               </div>
               <div className="gallery-callout-img gallery-callout-img-2">
-                <img
-                  src="/gallery-callout/gallery-callout-2.jpg"
-                  alt=""
-                />
+                <img src="/gallery-callout/gallery-callout-2.webp" alt="" />
                 <div className="gallery-callout-img-content">
-                  <h3>800+</h3>
-                  <p>Project Images</p>
+                  <h3>240+</h3>
+                  <p>Ready Designs</p>
                 </div>
               </div>
             </div>
             <div className="gallery-callout-row">
               <div className="gallery-callout-img gallery-callout-img-3">
-                <img
-                  src="/gallery-callout/gallery-callout-3.jpg"
-                  alt=""
-                />
+                <img src="/gallery-callout/gallery-callout-3.webp" alt="" />
               </div>
               <div className="gallery-callout-img gallery-callout-img-4">
-                <img
-                  src="/gallery-callout/gallery-callout-4.jpg"
-                  alt=""
-                />
+                <img src="/gallery-callout/gallery-callout-4.jpg" alt="" />
               </div>
             </div>
           </div>
@@ -454,25 +434,21 @@ Every project is optimized for speed, SEO, and conversions, ensuring your brand 
             <div className="gallery-callout-copy">
               <Copy delay={0.1}>
                 <h3>
-                  Take a closer look at the projects that define our practice.
-                  From intimate interiors to expansive landscapes, each image
-                  highlights a unique perspective that might spark your next big
-                  idea.
+                  From interactive web platforms and AI-driven solutions to
+                  immersive UI experiments and performance focused products, we
+                  continuously explore new ideas that push digital boundaries.
                 </h3>
               </Copy>
-              <AnimatedButton
-                label="Explore Gallery"
-                route="blueprints"
-              />
+              <AnimatedButton label="View the Spaces" route="blueprints" />
             </div>
           </div>
         </div>
       </section>
       <CTAWindow
-        img="/home/home-cta-window.jpg"
-        header="Terrene"
-        callout="Spaces that breathe with time"
-        description="Our approach is guided by rhythm, proportion, and light, allowing every environment to grow more meaningful as it is lived in."
+        img="/home/home-cta-window.webp"
+        header="ReromSpaces"
+        callout="Start Your Project With ReromSpaces Today"
+        description="Get a quick consultation to understand timelines, possibilities, and the best digital strategy for your brand."
       />
       <ConditionalFooter />
     </>
