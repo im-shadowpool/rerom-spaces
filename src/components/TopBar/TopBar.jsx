@@ -8,6 +8,7 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 
 import { useViewTransition } from "@/hooks/useViewTransition";
 import AnimatedButton from "../AnimatedButton/AnimatedButton";
+import Copy from "../Copy/Copy";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -67,20 +68,32 @@ const TopBar = () => {
   });
 
   return (
-    <div className="top-bar" ref={topBarRef}>
+    <div
+      className="top-bar"
+      ref={topBarRef}>
       <div className="top-bar-logo">
         <a
           href="/"
           onClick={(e) => {
             e.preventDefault();
             navigateWithTransition("/");
-          }}
-        >
-          <img src="/logos/terrene-logo-symbol.png" alt="" />
+          }}>
+            <img
+              src="/logos/reromspaces-logo-light.png"
+              alt="reromspaces logo"
+            />
+
+          <Copy delay={1}>
+            <p>Rerom<span>Spaces</span></p>
+          </Copy>
         </a>
       </div>
       <div className="top-bar-cta">
-        <AnimatedButton label="Reserve" route="/connect" animate={false} />
+        <AnimatedButton
+          label="Contact us"
+          route="/connect"
+          animate={false}
+        />
       </div>
     </div>
   );
