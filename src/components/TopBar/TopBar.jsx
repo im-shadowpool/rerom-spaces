@@ -68,32 +68,24 @@ const TopBar = () => {
   });
 
   return (
-    <div
-      className="top-bar"
-      ref={topBarRef}>
+    <div className="top-bar" ref={topBarRef}>
       <div className="top-bar-logo">
         <a
           href="/"
           onClick={(e) => {
             e.preventDefault();
             navigateWithTransition("/");
-          }}>
-            <img
-              src="/logos/reromspaces-logo-light.png"
-              alt="reromspaces logo"
-            />
+          }}
+        >
+          <img src="/logos/reromspaces-logo-light.png" alt="reromspaces logo" />
 
-          <Copy delay={1}>
-            <p>Rerom<span>Spaces</span></p>
-          </Copy>
+          <p>
+            Rerom<span>Spaces</span>
+          </p>
         </a>
       </div>
       <div className="top-bar-cta">
-        <AnimatedButton
-          label="Contact us"
-          route="/connect"
-          animate={false}
-        />
+        <AnimatedButton label="Contact us" route="/connect" animate={false} />
       </div>
     </div>
   );

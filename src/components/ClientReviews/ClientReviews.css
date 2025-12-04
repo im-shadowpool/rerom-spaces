@@ -19,7 +19,7 @@
   flex-direction: column;
   align-items: center;
   gap: 1.5rem;
-  width: 40%;
+  width: 50vw;
   height: 100%;
   margin: 0 auto;
   color: var(--base-200);
@@ -62,12 +62,13 @@
   line-height: 1.25;
 }
 
-.client-reviews .client-review-copy h3 > div > div {
+.client-reviews .client-review-copy h3>div>div {
   will-change: transform;
 }
 
 .client-reviews .clients-list {
   width: 85%;
+  max-width: 30rem;
   height: 4rem;
   border-radius: 0.5rem;
   display: flex;
