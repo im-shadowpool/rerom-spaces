@@ -14,15 +14,18 @@
   align-items: flex-end;
 }
 
-.spaces .spaces-header .prop-col:nth-child(1) {
-  flex: 2;
-}
-
-.spaces .spaces-header .prop-col:nth-child(2) {
-  flex: 5;
+.spaces .spaces-header .prop-col{
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  p{
+  color: var(--base-350);
+
+  }
 }
 
 .spaces .prop-filters {
@@ -127,9 +130,6 @@
     gap: 0;
   }
 
-  .spaces .spaces-header .prop-col:nth-child(2) {
-    flex: 1;
-  }
 
   .spaces .prop-filters {
     width: 85%;

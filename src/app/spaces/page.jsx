@@ -92,38 +92,24 @@ const page = () => {
       <div className="page spaces">
         <section className="spaces-header">
           <div className="container">
-            <div className="prop-col"></div>
             <div className="prop-col">
               <Copy delay={1}>
-                <h1>Timeless Spaces</h1>
+                <h1>Featuring Digital Spaces That Inspire</h1>
               </Copy>
-              <div className="prop-filters">
-                <div className="filter default">
-                  <Copy delay={1}>
-                    <p className="lg">All</p>
-                  </Copy>
-                </div>
-                <div className="filter">
-                  <Copy delay={1.1}>
-                    <p className="lg">Residential</p>
-                  </Copy>
-                </div>
-                <div className="filter">
-                  <Copy delay={1.2}>
-                    <p className="lg">Commercial</p>
-                  </Copy>
-                </div>
-                <div className="filter">
-                  <Copy delay={1.3}>
-                    <p className="lg">Hospitality</p>
-                  </Copy>
-                </div>
-              </div>
+              <Copy delay={1.1}>
+                <p>
+                  We create high-converting websites with clean UI, fast
+                  performance, and strong SEO foundations. Perfect for brands
+                  aiming to scale online.
+                </p>
+              </Copy>
             </div>
           </div>
         </section>
         <section className="spaces-list">
-          <div className="container" ref={spacesRef}>
+          <div
+            className="container"
+            ref={spacesRef}>
             {spacesData.map((space, index) => (
               <a
                 key={space.id}
@@ -132,10 +118,12 @@ const page = () => {
                 onClick={(e) => {
                   e.preventDefault();
                   navigateWithTransition(space.route);
-                }}
-              >
+                }}>
                 <div className="space-img">
-                  <img src={space.image} alt={space.name} />
+                  <img
+                    src={space.image}
+                    alt={space.name}
+                  />
                 </div>
                 <div className="space-info">
                   <div className="prop-info-col">
@@ -153,7 +141,10 @@ const page = () => {
                     <div className="prop-info-sub-col">
                       <div className="prop-client">
                         <div className="prop-client-img">
-                          <img src={space.clientImage} alt={space.clientName} />
+                          <img
+                            src={space.clientImage}
+                            alt={space.clientName}
+                          />
                         </div>
                         <div className="prop-client-name">
                           <p>{space.clientName}</p>
