@@ -18,7 +18,8 @@
 }
 
 .studio-hero .studio-hero-col:nth-child(1) p {
-  width: 50%;
+  width: 85%;
+  padding-top: 0.5rem;
 }
 
 .studio-hero .studio-hero-col:nth-child(2) {
@@ -96,6 +97,7 @@
   .studio-hero .studio-hero-col:nth-child(1) p {
     width: 85%;
   }
+
   .more-facts .more-facts-items {
     justify-content: center;
     align-items: center;

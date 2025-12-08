@@ -18,23 +18,23 @@ const page = () => {
             <div className="studio-hero-col">
               <Copy delay={0.85}>
                 <p>
-                  We see design as more than construction. It is an ongoing
-                  dialogue between people, material, and place, shaped with
-                  care, and built to endure.
+                  At ReromSpaces, we empower businesses to grow with digital
+                  experiences that are engineered for performance, clarity, and
+                  long-term scalability. Our clients come from fast-moving
+                  sectors like eCommerce, automobiles, and enterprise
+                  dashboards, and we specialise in designing solutions that
+                  elevate their operations, conversions, and brand identity.
                 </p>
               </Copy>
             </div>
             <div className="studio-hero-col">
               <Copy delay={0.85}>
                 <h2>
-                  Our studio exists to create spaces that feel honest, lived in,
-                  and quietly transformative. Every project begins with
-                  listening and ends with an environment.
+                  At ReromSpaces, we empower businesses to grow with digital
+                  experiences that are engineered for performance, clarity, and
+                  long-term scalability.
                 </h2>
               </Copy>
-              <div className="studio-hero-hero-img">
-                <img src="/studio/about-hero.png" alt="" />
-              </div>
             </div>
           </div>
         </section>
@@ -43,32 +43,32 @@ const page = () => {
             <div className="more-facts-items">
               <div className="fact">
                 <Copy delay={0.1}>
-                  <p>Models crafted</p>
-                  <h2>120+</h2>
+                  <p>Custom Frameworks</p>
+                  <h2>100%</h2>
                 </Copy>
               </div>
               <div className="fact">
                 <Copy delay={0.2}>
-                  <p>Materials explored</p>
-                  <h2>60</h2>
+                  <p>Faster Google Rankings</p>
+                  <h2>3x</h2>
                 </Copy>
               </div>
               <div className="fact">
                 <Copy delay={0.3}>
-                  <p>Workshops hosted</p>
-                  <h2>25+</h2>
+                  <p>Promised Uptime</p>
+                  <h2>99.9%</h2>
                 </Copy>
               </div>
               <div className="fact">
                 <Copy delay={0.4}>
-                  <p>Hours logged</p>
-                  <h2>3k+</h2>
+                  <p>Projects Delivered</p>
+                  <h2>250+</h2>
                 </Copy>
               </div>
               <div className="fact">
                 <Copy delay={0.5}>
-                  <p>Prototypes build</p>
-                  <h2>724</h2>
+                  <p>Google Ads Campaigns</p>
+                  <h2>150+</h2>
                 </Copy>
               </div>
             </div>

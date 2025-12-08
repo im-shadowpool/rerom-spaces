@@ -6,7 +6,7 @@ const clientReviewsContent = [
     image: "/client-reviews/client-review-1.jpg",
     avatar: "/clients/client-1.jpg",
     review:
-      "The dashboard feels designed around our workflow, as if every element understands how we operate. The clarity in navigation, the flow of data, everything was responsive.",
+      "The dashboard fits our workflow perfectly. Clean navigation, smooth data flow, and a highly responsive experience that truly supports daily operations.",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const clientReviewsContent = [
     image: "/client-reviews/client-review-2.jpg",
     avatar: "/clients/client-2.jpg",
     review:
-      "We expected something efficient, but what we received reshaped the way we sell. It feels seamless, intuitive, and perfectly aligned with how customers interact...",
+      "Our store now feels seamless and intuitive. The experience reshaped how customers interact with us and improved conversions instantly.",
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const clientReviewsContent = [
     image: "/client-reviews/client-review-3.jpg",
     avatar: "/clients/client-3.jpg",
     review:
-      "Every page, every section, every detail feels intentional. The website carries a timeless clarity that made our properties feel elevated from the moment we saw.",
+      "The website feels elegant and intentional. Every section adds clarity and instantly elevated how our properties are perceived online.",
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ const clientReviewsContent = [
     image: "/client-reviews/client-review-4.jpg",
     avatar: "/clients/client-4.jpg",
     review:
-      "From first briefing to final launch, the process was thoughtful and exact. Each stage revealed a design that felt fresh yet completely aligned with how we wanted clients...",
+      "From concept to launch, the process was smooth and precise. The final design feels fresh, professional, and perfectly aligned with our brand.",
   },
   {
     id: 5,
@@ -42,7 +42,7 @@ const clientReviewsContent = [
     image: "/client-reviews/client-review-5.jpg",
     avatar: "/clients/client-5.jpg",
     review:
-      "What we have now feels more than higher rankings. It carries a quiet consistency that changed our daily traffic. Every update had purpose, and the overall growth...",
+      "Traffic growth is now steady and consistent. Every SEO update had purpose, and the long-term results speak for themselves.",
   },
 ];
 

@@ -108,17 +108,17 @@ const HowWeWork = () => {
   return (
     <div className="how-we-work" ref={containerRef}>
       <div className="how-we-work-col how-we-work-header" ref={headerRef}>
-        <div className="container">
+        <div className="">
           <div className="how-we-work-header-content">
             <div className="how-we-work-header-callout">
               <Copy delay={0.1}>
-                <p>Process in focus</p>
+                <p>Our Streamlined Project Flow</p>
               </Copy>
             </div>
             <Copy delay={0.15}>
               <h3>
-                From first sketches to final details, our process is shaped to
-                bring clarity and rhythm
+                At ReromSpaces, every project moves through a structured
+                workflow that ensures quality.
               </h3>
             </Copy>
             <div className="how-we-work-steps" ref={stepsRef}>
@@ -168,24 +168,24 @@ const HowWeWork = () => {
               <h3>Discovery / Context</h3>
             </div>
             <p className="md">
-              We begin with listening and study. Site, climate, and daily
-              routines inform the brief so we can define aims, constraints, and
-              measures of success with clarity.
+              We begin by understanding your goals, audience, and industry
+              space. Through research, requirement mapping, and competitor
+              insights.
             </p>
           </div>
         </div>
         <div className="how-we-work-card">
           <div className="how-we-work-card-img">
-            <img src="/how-we-work/process-2.jpg" alt="" />
+            <img src="/how-we-work/process-2.png" alt="" />
           </div>
           <div className="how-we-work-card-copy">
             <div className="how-we-work-card-index-label">
-              <h3>Principles / Direction</h3>
+              <h3>Design & Brand Alignment</h3>
             </div>
             <p className="md">
-              We set guiding principles for light, massing, and flow. Quick
-              models and diagrams test options and reveal the direction that
-              best serves the brief.
+              Our team transforms research into clean, modern, and high-impact
+              UI/UX. Every screen and interaction is crafted to match the
+              ReromSpaces design language minimal.
             </p>
           </div>
         </div>
@@ -195,27 +195,27 @@ const HowWeWork = () => {
           </div>
           <div className="how-we-work-card-copy">
             <div className="how-we-work-card-index-label">
-              <h3>Detail / Coordination</h3>
+              <h3>Development</h3>
             </div>
             <p className="md">
-              We develop drawings and specifications across structure, services,
-              and joinery. Materials and samples are reviewed in natural light
-              while budget and timeline stay in view.
+              We engineer fast, secure, and scalable solutions using modern
+              frameworks. From frontend builds to backend systems and
+              integrations, we ensure high performance, SEO readiness.
             </p>
           </div>
         </div>
         <div className="how-we-work-card">
           <div className="how-we-work-card-img">
-            <img src="/how-we-work/process-4.jpg" alt="" />
+            <img src="/how-we-work/process-4.webp" alt="" />
           </div>
           <div className="how-we-work-card-copy">
             <div className="how-we-work-card-index-label">
-              <h3>Build / Handover</h3>
+              <h3>Launch & Grow</h3>
             </div>
             <p className="md">
-              We oversee construction with care and precision. After final
-              review and finishing, we hand over a space that is ready to live
-              in, complete with guidance for long term care.
+              Once launched, we optimise continuously. This includes SEO
+              improvements, Google Ads readiness, analytics tracking, DevOps
+              monitoring.
             </p>
           </div>
         </div>

@@ -26,16 +26,25 @@ const Spotlight = () => {
   };
 
   const spotlightItems = [
-    { name: "Courtyard Stillness", img: "/spotlight/spotlight-img-1.jpg" },
-    { name: "Blue Horizon", img: "/spotlight/spotlight-img-2.jpg" },
-    { name: "Stone Quiet", img: "/spotlight/spotlight-img-3.jpg" },
-    { name: "Amber Niche", img: "/spotlight/spotlight-img-4.jpg" },
-    { name: "Earthen Shelf", img: "/spotlight/spotlight-img-5.jpg" },
-    { name: "Reflective White", img: "/spotlight/spotlight-img-6.jpg" },
-    { name: "Desert Edge", img: "/spotlight/spotlight-img-7.jpg" },
-    { name: "Soft Passage", img: "/spotlight/spotlight-img-8.jpg" },
-    { name: "Water Column", img: "/spotlight/spotlight-img-9.jpg" },
-    { name: "Golden Retreat", img: "/spotlight/spotlight-img-10.jpg" },
+    { name: "Ecommerce Websites", img: "/spotlight/spotlight (5).webp" },
+    { name: "SaaS Dashboards", img: "/spotlight/spotlight (7).webp" },
+    {
+      name: "Logistics Systems",
+      img: "/spotlight/spotlight (3).webp",
+    },
+    {
+      name: "Food & Restaurant",
+      img: "/spotlight/spotlight (8).webp",
+    },
+    {
+      name: "Event & Ticketing",
+      img: "/spotlight/spotlight (1).webp",
+    },
+    { name: "Service Booking", img: "/spotlight/spotlight (9).webp" },
+    { name: "API Development", img: "/spotlight/spotlight (10).webp" },
+    { name: "Product Consultation", img: "/spotlight/spotlight (6).webp" },
+    { name: "Branding Services", img: "/spotlight/spotlight (2).webp" },
+    { name: "AI Integrations", img: "/spotlight/spotlight (4).webp" },
   ];
 
   useEffect(() => {
@@ -284,13 +293,13 @@ const Spotlight = () => {
             className="spotlight-intro-text"
             ref={(el) => (introTextElementsRef.current[0] = el)}
           >
-            <p>Beneath</p>
+            <p>Rerom</p>
           </div>
           <div
             className="spotlight-intro-text"
             ref={(el) => (introTextElementsRef.current[1] = el)}
           >
-            <p>Beyond</p>
+            <p>Spaces</p>
           </div>
         </div>
         <div className="spotlight-bg-img">

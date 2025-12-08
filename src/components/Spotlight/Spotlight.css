@@ -72,11 +72,12 @@
   transform: scale(0);
   will-change: transform;
   border-radius: 2rem;
-  opacity: 0.65;
+  opacity: 0.55;
+  filter: blur(4px);
 }
 
 .spotlight-bg-img img {
-  transform: scale(1.5);
+  transform: scale(1.3);
   will-change: transform;
 }
 
@@ -87,13 +88,11 @@
   width: 100%;
   height: 100%;
   overflow: hidden;
-  clip-path: polygon(
-    50svh 0px,
-    0px 50%,
-    50svh 100%,
-    100% calc(100% + 100svh),
-    100% -100svh
-  );
+  clip-path: polygon(50svh 0px,
+      0px 50%,
+      50svh 100%,
+      100% calc(100% + 100svh),
+      100% -100svh);
   --before-opacity: 0;
   --after-opacity: 0;
 }
@@ -190,6 +189,7 @@
 }
 
 @media (max-width: 1000px) {
+
   .spotlight-titles,
   .spotlight-titles-container::before,
   .spotlight-titles-container::after {

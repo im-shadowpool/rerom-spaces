@@ -176,7 +176,8 @@ export default function Home() {
 
   return (
     <>
-      {showPreloader && (
+      {false && (
+        // {showPreloader && (
         <div className="loader">
           <div className="overlay">
             <div className="block"></div>
