@@ -107,47 +107,43 @@ const page = () => {
           </div>
         </section>
         <section className="spaces-list">
-          <div
-            className="container"
-            ref={spacesRef}>
+          <div className="container" ref={spacesRef}>
             {spacesData.map((space, index) => (
               <a
                 key={space.id}
-                href={space.route}
+                href="/connect"
                 className="space"
                 onClick={(e) => {
                   e.preventDefault();
-                  navigateWithTransition(space.route);
-                }}>
+                  navigateWithTransition("/connect");
+                }}
+              >
                 <div className="space-img">
-                  <img
-                    src={space.image}
-                    alt={space.name}
-                  />
+                  <img src={space.image} alt={space.title} />
                 </div>
                 <div className="space-info">
                   <div className="prop-info-col">
                     <div className="prop-date">
-                      <p>{space.date}</p>
+                      <p>{space.category}</p>
                     </div>
                   </div>
                   <div className="prop-info-col">
                     <div className="prop-info-sub-col">
                       <div className="prop-name">
-                        <h3>{space.name}</h3>
-                        <p className="lg">{space.location}</p>
+                        <h3>{space.title}</h3>
+                        <p className="lg">{space.desc}</p>
                       </div>
                     </div>
                     <div className="prop-info-sub-col">
                       <div className="prop-client">
                         <div className="prop-client-img">
                           <img
-                            src={space.clientImage}
-                            alt={space.clientName}
+                            src="/logos/reromspaces-logo-light.png"
+                            alt="ReromSpaces Logo"
                           />
                         </div>
                         <div className="prop-client-name">
-                          <p>{space.clientName}</p>
+                          <p>{space.tagline}</p>
                         </div>
                       </div>
                     </div>

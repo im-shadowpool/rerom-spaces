@@ -26,25 +26,25 @@ const Spotlight = () => {
   };
 
   const spotlightItems = [
-    { name: "Ecommerce Websites", img: "/spotlight/spotlight (5).webp" },
+    { name: "Ecommerce Websites", img: "/spotlight/spotlight (3).webp" },
     { name: "SaaS Dashboards", img: "/spotlight/spotlight (7).webp" },
     {
       name: "Logistics Systems",
-      img: "/spotlight/spotlight (3).webp",
+      img: "/spotlight/spotlight (10).webp",
     },
     {
       name: "Food & Restaurant",
-      img: "/spotlight/spotlight (8).webp",
+      img: "/spotlight/spotlight (4).webp",
     },
     {
       name: "Event & Ticketing",
-      img: "/spotlight/spotlight (1).webp",
+      img: "/spotlight/spotlight (5).webp",
     },
     { name: "Service Booking", img: "/spotlight/spotlight (9).webp" },
-    { name: "API Development", img: "/spotlight/spotlight (10).webp" },
-    { name: "Product Consultation", img: "/spotlight/spotlight (6).webp" },
-    { name: "Branding Services", img: "/spotlight/spotlight (2).webp" },
-    { name: "AI Integrations", img: "/spotlight/spotlight (4).webp" },
+    { name: "API Development", img: "/spotlight/spotlight (2).webp" },
+    { name: "Product Consultation", img: "/spotlight/spotlight (8).webp" },
+    { name: "Branding Services", img: "/spotlight/spotlight (6).webp" },
+    { name: "AI Integrations", img: "/spotlight/spotlight (1).webp" },
   ];
 
   useEffect(() => {
@@ -303,7 +303,7 @@ const Spotlight = () => {
           </div>
         </div>
         <div className="spotlight-bg-img">
-          <img src="/spotlight/spotlight-img-1.jpg" alt="" />
+          <img src="/spotlight/spotlight (3).webp" alt="" />
         </div>
       </div>
       <div

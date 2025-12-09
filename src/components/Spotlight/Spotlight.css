@@ -73,7 +73,6 @@
   will-change: transform;
   border-radius: 2rem;
   opacity: 0.55;
-  filter: blur(4px);
 }
 
 .spotlight-bg-img img {

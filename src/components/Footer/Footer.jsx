@@ -111,7 +111,7 @@ const Footer = () => {
                     navigateWithTransition("/studio");
                   }}
                 >
-                  <h3>Studio</h3>
+                  <h3>Our Space</h3>
                 </a>
                 <a
                   href="/spaces"
@@ -120,16 +120,7 @@ const Footer = () => {
                     navigateWithTransition("/spaces");
                   }}
                 >
-                  <h3>Our Spaces</h3>
-                </a>
-                <a
-                  href="/sample-space"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    navigateWithTransition("/sample-space");
-                  }}
-                >
-                  <h3>One Installation</h3>
+                  <h3>Crafts</h3>
                 </a>
                 <a
                   href="/blueprints"
@@ -147,7 +138,7 @@ const Footer = () => {
                     navigateWithTransition("/connect");
                   }}
                 >
-                  <h3>Connect</h3>
+                  <h3>Your Space</h3>
                 </a>
               </Copy>
             </div>

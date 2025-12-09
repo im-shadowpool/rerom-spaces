@@ -1,11 +1,11 @@
 .spaces .spaces-header {
   position: relative;
   width: 100%;
-  height: 60svh;
+  height: 70svh;
   overflow: hidden;
   color: var(--base-100);
   display: flex;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .spaces .spaces-header .container {
@@ -14,7 +14,7 @@
   align-items: flex-end;
 }
 
-.spaces .spaces-header .prop-col{
+.spaces .spaces-header .prop-col {
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -22,9 +22,9 @@
   text-align: center;
   justify-content: center;
   width: 100%;
-  p{
-  color: var(--base-350);
 
+  p {
+    color: var(--base-350);
   }
 }
 
