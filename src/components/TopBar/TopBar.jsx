@@ -9,7 +9,7 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 import { useViewTransition } from "@/hooks/useViewTransition";
 import AnimatedButton from "../AnimatedButton/AnimatedButton";
 import Copy from "../Copy/Copy";
-import Logo from "../SvgComponents/logo";
+import Logo from "../SvgComponents/Logo";
 
 gsap.registerPlugin(ScrollTrigger);
 
