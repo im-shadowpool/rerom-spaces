@@ -1,16 +1,17 @@
 :root {
   --fallback-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
   font-family: var(--font-manrope), var(--fallback-sans);
-  --base-100: rgb(242, 237, 230);
-  --base-200: rgb(204, 200, 194);
-  --base-250: rgb(179, 167, 152);
-  --base-300: rgb(153, 143, 130);
-  --base-350: rgb(128, 119, 108);
-  --base-400: rgb(102, 95, 86);
+  --base-100: rgb(248, 255, 255);
+  --base-200: rgb(194, 204, 204);
+  --base-250: rgb(152, 177, 179);
+  --base-300: rgb(130, 150, 153);
+  --base-350: rgb(108, 124, 128);
+  --base-400: rgb(86, 100, 102);
   --base-450: rgb(31, 29, 29);
   --base-500: rgb(20, 19, 19);
-  --purple: #6b21a8;
+  --purple: #c3d2d9;
 }
+
 /* :root {
   --base-500: rgb(242, 237, 230);
   --base-450: rgb(204, 200, 194);

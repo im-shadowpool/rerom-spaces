@@ -108,12 +108,6 @@ export default function Home() {
         delay: 0.3,
       });
 
-      //       tl.to(".spinner-container", {
-      //   opacity: 0,
-      //   backgroundColor: "transparent",
-      //   duration: 0,
-      // });
-
       tl.to(
         "#word-2 h1",
         {
@@ -174,10 +168,124 @@ export default function Home() {
     { scope: tagsRef }
   );
 
+  useGSAP(() => {
+    const lightSection = document.querySelector(".featured-projects-container");
+    if (!lightSection) return;
+
+    ScrollTrigger.create({
+      trigger: lightSection,
+      start: "top 30%",
+      end: "bottom 55%",
+
+      onEnter: () => {
+        gsap.to(
+          [
+            ".what-we-do .what-we-do-col:nth-child(1) p.lg",
+            ".featured-projects-container .featured-projects-header-callout",
+            ".featured-projects .featured-project-card-info",
+            ".featured-projects .featured-project-card-description",
+          ],
+          {
+            color: "rgb(31, 29, 29)",
+            duration: 0.6,
+            ease: "power2.inOut",
+          }
+        );
+        gsap.to([".featured-projects .featured-project-card-inner"], {
+          "--card-aftercolor": "#c3d2d9",
+          backgroundColor: "#c3d2d9",
+          duration: 0.6,
+          ease: "power2.inOut",
+        });
+        gsap.to(
+          [
+            ".what-we-do .what-we-do-tag h3",
+            ".featured-projects-container",
+            ".featured-projects",
+          ],
+          {
+            color: "rgb(20, 19, 19)",
+            duration: 0.6,
+            ease: "power2.inOut",
+          }
+        );
+
+        gsap.to(["section"], {
+          backgroundColor: "rgb(248, 255, 255)",
+          duration: 0.6,
+          ease: "power2.inOut",
+        });
+        gsap.to(".top-bar-logo a p", {
+          color: "rgb(20, 19, 19)",
+          duration: 0.6,
+          ease: "power2.inOut",
+        });
+        gsap.to(".top-bar-logo svg path", {
+          stroke: "rgb(20, 19, 19)",
+          duration: 0.6,
+          ease: "power2.inOut",
+        });
+      },
+      onLeave: () => {
+        gsap.to(
+          [
+            ".what-we-do .what-we-do-col:nth-child(1) p.lg",
+            ".featured-projects-container .featured-projects-header-callout",
+            ".featured-projects .featured-project-card-info",
+            ".featured-projects .featured-project-card-description",
+          ],
+          {
+            color: "rgb(194, 204, 204)",
+            duration: 0.6,
+            ease: "power2.inOut",
+          }
+        );
+        gsap.to(
+          [
+            ".what-we-do .what-we-do-tag h3",
+            ".featured-projects-container",
+            ".featured-projects",
+          ],
+          {
+            color: "rgb(248, 255, 255)",
+            duration: 0.6,
+            ease: "power2.inOut",
+          }
+        );
+        gsap.to([".featured-projects .featured-project-card-inner"], {
+          "--card-aftercolor": "rgb(20, 19, 19)",
+          backgroundColor: "rgb(20, 19, 19)",
+          duration: 0.6,
+          ease: "power2.inOut",
+        });
+
+        gsap.to(["section"], {
+          backgroundColor: "#0d0c0c",
+          duration: 0.6,
+          ease: "power2.inOut",
+        });
+
+        gsap.to(".top-bar-logo a p", {
+          color: "rgb(248, 255, 255)",
+          duration: 0.6,
+          ease: "power2.inOut",
+        });
+        gsap.to(".top-bar-logo svg path", {
+          stroke: "#FFFFFF",
+          duration: 0.6,
+          ease: "power2.inOut",
+        });
+      },
+
+      onEnterBack: (self) => self.vars.onEnter(),
+      onLeaveBack: (self) => self.vars.onLeave(),
+    });
+  });
+
   return (
     <>
-      {/* {false && ( */}
-         {showPreloader && (
+      {false && (
+        //  {showPreloader && (
         <div className="loader">
           <div className="overlay">
             <div className="block"></div>
@@ -427,7 +535,7 @@ export default function Home() {
                 <img src="/gallery-callout/gallery-callout-3.webp" alt="" />
               </div>
               <div className="gallery-callout-img gallery-callout-img-4">
-                <img src="/gallery-callout/gallery-callout-4.jpg" alt="" />
+                <img src="/gallery-callout/gallery-callout-4.webp" alt="" />
               </div>
             </div>
           </div>

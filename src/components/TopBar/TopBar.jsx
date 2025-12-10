@@ -9,6 +9,7 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 import { useViewTransition } from "@/hooks/useViewTransition";
 import AnimatedButton from "../AnimatedButton/AnimatedButton";
 import Copy from "../Copy/Copy";
+import Logo from "../SvgComponents/logo";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -77,7 +78,7 @@ const TopBar = () => {
             navigateWithTransition("/");
           }}
         >
-          <img src="/logos/reromspaces-logo-light.png" alt="reromspaces logo" />
+          <Logo customClass="logo" width={50} height={50} stroke="#FFFFFF" />
 
           <p>
             Rerom<span>Spaces</span>

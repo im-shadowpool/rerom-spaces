@@ -58,8 +58,9 @@
 .client-reviews .client-review-copy h3 {
   text-align: center;
   font-size: 1.75rem;
-  color: var(--base-300);
+  color: var(--base-100);
   line-height: 1.25;
+  font-weight: 400;
 }
 
 .client-reviews .client-review-copy h3>div>div {

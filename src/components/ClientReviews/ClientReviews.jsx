@@ -22,7 +22,7 @@ const ClientReviews = () => {
   const getExpandedWidth = () => {
     if (!containerRef.current) return "10rem";
 
-    const containerWidth = containerRef.current.offsetWidth;
+    const containerWidth = containerRef.current.offsetWidth - 50;
     const padding = 16;
     const gap = 4;
     const inactiveItemWidth = 48;
