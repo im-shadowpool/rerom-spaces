@@ -179,3 +179,9 @@
     display: none;
   }
 }
+
+@media (max-width: 768px) {
+  .client-reviews .clients-list {
+    width: 100%;
+  }
+}

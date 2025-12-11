@@ -222,6 +222,10 @@
 
 @media (max-width: 1000px) {
 
+  .footer-header h3 {
+    letter-spacing: -0.2rem;
+  }
+
   .footer .footer-meta .container.footer-meta-header,
   .footer .footer-meta .container.footer-socials {
     flex-direction: column;

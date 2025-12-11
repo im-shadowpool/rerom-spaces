@@ -123,3 +123,14 @@
     display: none;
   }
 }
+
+@media (max-width: 768px) {
+  .menu-wrapper {
+    flex-direction: column;
+  }
+
+  .col .col-1,
+  .col .col-2 {
+    width: 100%;
+  }
+}

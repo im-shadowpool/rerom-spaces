@@ -40,8 +40,14 @@
   margin: 0;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
   .top-bar {
-    padding: 0.5rem 1.5rem;
+    padding: 1rem 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .top-bar-logo a p {
+    display: none;
   }
 }
