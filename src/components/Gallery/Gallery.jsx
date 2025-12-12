@@ -138,8 +138,8 @@ export default function Gallery() {
   const itemCount = 20;
   const itemGap = 150;
   const columns = 4;
-  const itemWidth = 120;
-  const itemHeight = 160;
+  const itemWidth = 150;
+  const itemHeight = 190;
   const masonryOffset = 125;
 
   const stateRef = useRef({
