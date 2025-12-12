@@ -296,7 +296,7 @@ export default function Gallery() {
 
         const itemNum = (Math.abs(row * columns + col) % itemCount) + 1;
         const img = document.createElement("img");
-        img.src = `/archive/archive-${itemNum}.jpg`;
+        img.src = `/archive/${itemNum}.webp`;
         img.alt = `Image ${itemNum}`;
         item.appendChild(img);
 
@@ -349,10 +349,9 @@ export default function Gallery() {
     container.style.cursor = "auto";
 
     const imgSrc = item.querySelector("img").src;
-    const imgMatch = imgSrc.match(/\/img(\d+)\.jpg/);
+    const imgMatch = imgSrc.match(/\/(\d+)\.webp/);
     const imgNum = imgMatch ? parseInt(imgMatch[1]) : 1;
     const titleIndex = (imgNum - 1) % items.length;
-
     setAndAnimateTitle(items[titleIndex]);
     item.style.visibility = "hidden";
 

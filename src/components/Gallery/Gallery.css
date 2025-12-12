@@ -14,8 +14,8 @@
 
 .item {
   position: absolute;
-  width: 120px;
-  height: 160px;
+  width: 150px;
+  height: 190px;
   overflow: hidden;
   cursor: pointer;
   border-radius: 0.5rem;

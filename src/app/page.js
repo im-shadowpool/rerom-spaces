@@ -51,6 +51,11 @@ export default function Home() {
       },
     });
 
+    // tl.to(".hero-bg", {
+    //   opacity: 0,
+    //   duration: 0,
+    // });
+
     if (showPreloader) {
       setLoaderAnimating(true);
       const counts = document.querySelectorAll(".count");
@@ -132,7 +137,8 @@ export default function Home() {
           stagger: 0.1,
           delay: 0.75,
           onStart: () => {
-            gsap.to(".divider", { scaleY: 0, duration: 0.5 });
+            gsap.to(".hero-bg", { opacity: 1, duration: 0 });
+            gsap.to(".divider", { scaleY: 0, duration: 0.8 });
             gsap.to(".hero-img", { scale: 1, duration: 2, ease: "hop" });
           },
           onComplete: () => {
